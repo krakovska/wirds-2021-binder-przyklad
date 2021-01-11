@@ -8,11 +8,10 @@ Aby binder działał potrzebuje następująego pliku:
 
 Możemy założyć jakie pakiety mają być na w ramach tego obrazu. W takim razie powinniśmy utworzyć plik o nazwie 'install.R' do instalacji pakietów. Na przykład:
 
-'''r
+```{r}
 install.packages("tidyverse")
 install.packages("data.table")
 install.packages("sf")
 install.packages("rio")
-'''r
-
+```
 
